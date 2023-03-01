@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+body{
+    background-color: hsl(0, 0%, 95%);
+    min-height: 100vb;
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 400;
+    border: 12px;
+    margin: 2rem;
+}
+
+
+
+.recipiant{
+    max-width: fit-content;
+    margin: 100px;
+    border-radius: 12px;
+    margin: 2rem;
+    overflow: hidden;
+}
+
+
+
+
+.emballage{
+     display: grid;
+     grid-template-columns: 1fr 1fr 1fr;
+     border-radius: 12;
+     overflow: hidden;
+}
+
+
+.box1{
+    background-color: hsl(31, 77%, 52%);
+}
+
+
+.box2{
+    background-color: hsl(184, 100%, 22%);
+}
+
+
+.box3{
+   background-color: hsl(179, 100%, 13%);
+}
+
+
+.box{
+ padding: 40px;
+}
+
+
+
+.box h2{
+    font-family: big shoulders displays;
+    text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
+    font-size: 40px;
+}
+
+.box p{
+    color: hsla(0, 0%, 100%, 0.75);
+    line-height: 1;
+}
+.box a{
+    text-decoration: none;
+    background-color: hsl(0, 0%, 95%);
+    padding: 13px 28px;
+    border-radius: 26px;
+    margin-top: 60px;
+    display:inline-block;
+    border: 1px solid;
+    transition: all;
+}
+
+.box1 a{
+     color: hsl(31, 77%, 52%);
+}
+
+.box2 a{
+    color: hsl(184, 100%, 22%);
+}
+.box3 a{
+    color: hsl(179, 100%, 13%);
+}
+
